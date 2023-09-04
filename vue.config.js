@@ -3,3 +3,8 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 
+module.exports = {
+  css: {
+    compiler: false 
+  }
+}
