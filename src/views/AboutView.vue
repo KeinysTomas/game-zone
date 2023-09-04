@@ -131,7 +131,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
             </video>
             <div class="card-body m-4">
               <h5 class="card-title mb-2 mt-1 fw-bold">Reaction Timer</h5>
-              <p class="card-text my-3">Test your Reaction time. Challenge your friends and colleagues to beat your score!</p>
+              <p class="card-text my-3">Test your Reaction Time. Challenge your friends and colleagues to beat your score!</p>
 
 
 
