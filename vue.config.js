@@ -3,7 +3,11 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 
+
+
 module.exports = {
+  publicPath: '/GameZone/',
+
   css: {
     compiler: false 
   }
