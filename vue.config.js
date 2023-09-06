@@ -6,10 +6,10 @@ module.exports = defineConfig({
 
 
 module.exports = {
-  publicPath: '/GameZone/',
+  publicPath: '/game-zone/',
+  
+  outputDir: './dist',
 
-  css: {
-    compiler: false 
-  }
+  
 }
 
