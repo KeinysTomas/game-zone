@@ -1,4 +1,4 @@
-# game-zone
+# game-hub
 
 ## Project setup
 ```

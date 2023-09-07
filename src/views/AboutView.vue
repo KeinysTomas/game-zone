@@ -249,7 +249,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
 
 
 
-.game-zone {
+.game-hub {
   position: absolute;
   top: 50%;
   left: 0px;
@@ -258,7 +258,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
 }
 
 
-.game-zone1 {
+.game-hub1 {
   position: absolute;
   top: 50%;
   left: 0px;
