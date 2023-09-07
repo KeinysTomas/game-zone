@@ -24,7 +24,7 @@
         
     <p class="about-subtitle fw-bold" >ABOUT</p>
     
-    <h1 class="about-title fw-bold" >GAME ZONE</h1> 
+    <h1 class="about-title fw-bold" >GAME Hub</h1> 
 
       </div>
     </div>
