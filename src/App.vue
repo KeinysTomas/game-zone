@@ -359,7 +359,7 @@
   
 
     <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Game Zone:
+    © 2025 Game Zone:
     <a class="text-primary" href="https://mdbootstrap.com/">Portfolio</a>
   </div>
   
