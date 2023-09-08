@@ -16,11 +16,17 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "husky": "^8.0.3"
   },
   "description": "## Project setup ``` npm install ```",
   "main": "babel.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "husky": {
+    "hooks": { 
+      "pre-commit": "npm run build && cp -r src/. dist/ && cp -r assets/. dist/"
+    } 
+  }
 }
