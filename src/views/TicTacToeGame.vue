@@ -1,6 +1,6 @@
 <template>
 
-<div class="container-lg ps-5 pe-5 pt-0 pt-md-3 pt-lg-4 pb-5">
+<div class="container-lg           ps-3 pe-3 pt-0 pt-md-3 pt-lg-4 pb-5           ps-md-5   pe-md-5">
 <div class="container-lg pb-2 pb-md-4 pb-lg-5 gx-0"> 
 
 
@@ -90,7 +90,15 @@
 
         <p class="card-text ms-1 mt-3 me-1 mb-1 pt-2      mx-sm-0            ms-lg-4 mt-lg-4 me-lg-4 mb-lg-1 pt-lg-2        ms-xl-5 mt-xl-4 me-xl-5 mb-xl-1 pt-xl-2">Experience the excitement of the classic card game War. Test your luck and strategy.</p>
 
-        <a href="#" class="btn btn-outline-primary m-4 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+
+
+        <router-link 
+                class="btn btn-outline-primary m-4 px-5 shadow-sm"
+                to="/WarGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
       </div>
     </div>
   </div>
@@ -105,7 +113,14 @@
 
         <p class="card-text ms-1 mt-3 me-1 mb-1 pt-2      mx-sm-0            ms-lg-4 mt-lg-4 me-lg-4 mb-lg-1 pt-lg-2        ms-xl-5 mt-xl-4 me-xl-5 mb-xl-1 pt-xl-2">Test your reaction time. Challenge friends and colleagues to beat your score!</p>
 
-        <a href="#" class="btn btn-outline-primary m-4 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+        
+        <router-link 
+                class="btn btn-outline-primary m-4 px-5 shadow-sm"
+                to="/ReactionTimerGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
       </div>
     </div>
   </div>

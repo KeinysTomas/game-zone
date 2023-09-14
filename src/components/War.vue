@@ -10,7 +10,7 @@
 
 
 
-  <div id="app" class="row grid-container justify-content-center rounded shadow gx-0 p-5" style="background-color: rgba(255, 255, 255, 0.5); margin-bottom: 20px; margin-top: 60px;">
+  <div id="app" class="row grid-container justify-content-center rounded shadow gx-0 ps-4 pe-4 pt-4 pt-md-5 pt-lg-5 pb-5           ps-md-5   pe-md-5" style="background-color: rgba(255, 255, 255, 0.5); margin-bottom: 20px; margin-top: 60px;">
 
   <div class="card text-center col-lg-4 col-12">
     <div class="card-body">

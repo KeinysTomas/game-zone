@@ -1,6 +1,6 @@
 <template>
   
-  <div class="container-lg p-5 about">
+  <div class="container-lg ps-3 pe-3 pt-5 pt-md-3 pt-lg-5 pb-5           ps-md-5   pe-md-5 about">
 
 
 
@@ -112,7 +112,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
 
 <div class="text-center bg-light allwidthAbout">
 
-<div class="container-lg p-5 about">
+<div class="container-lg ps-3 pe-3     pt-5 pb-5      ps-md-5   pe-md-5 about">
 
 
 <h2 class="pt-5 pb-3">Escape Through Gaming</h2>
@@ -136,7 +136,17 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
 
 
 
-              <a href="#" class="btn btn-outline-primary my-2 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+              
+
+
+
+              <router-link 
+                class="btn btn-outline-primary my-2 px-5 shadow-sm"
+                to="/ReactionTimerGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
 
 
 
@@ -152,7 +162,21 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
             <div class="card-body m-4">
               <h5 class="card-title mb-2 mt-1 fw-bold">War Card Game</h5>
               <p class="card-text my-3">Experience the excitement of the classic card game War. Test your luck and strategy.</p>
-              <a href="#" class="btn btn-outline-primary my-2 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+              
+
+
+              <router-link 
+                class="btn btn-outline-primary my-2 px-5 shadow-sm"
+                to="/WarGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
+
+
+
+
+
             </div>
           </div>
         </div>
@@ -165,7 +189,24 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
             <div class="card-body m-4">
               <h5 class="card-title mb-2 mt-1 fw-bold">Tic Tac Toe</h5>
               <p class="card-text my-3">Play the timeless game of Tic Tac Toe. Can you outsmart your opponents and claim victory?</p>
-              <a href="#" class="btn btn-outline-primary my-2 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+              
+
+
+
+
+              <router-link 
+                class="btn btn-outline-primary my-2 px-5 shadow-sm"
+                to="/TicTacToeGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
+
+
+              
+
+
+
             </div>
           </div>
         </div>
@@ -180,7 +221,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
 
 
 
-<div class="container-lg p-5 about">
+<div class="container-lg ps-3 pe-3     pt-5 pb-5      ps-md-5   pe-md-5 about">
 
 
   <div class="card" style="margin-right: -4px; margin-left: -4px; margin-top: 56px; margin-bottom: 56px;">
@@ -191,7 +232,23 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
     <i class="bi bi-star-fill rating"></i><i class="bi bi-star-fill rating"></i><i class="bi bi-star-fill rating"></i><i class="bi bi-star-fill rating"></i><i class="bi bi-star-fill rating"></i>
     <h5 class="card-title p-3">The difference is in the details.</h5>
     <p class="card-text p-3">True old-school fun that still delights thanks to squeaky clean execution.</p>
-    <a href="#" class="btn btn-primary m-3"><i class="bi bi-caret-right-fill me-1"></i>Back to Intro</a>
+
+
+
+    
+
+
+
+    <router-link 
+                class="btn btn-primary m-3 px-4 py-2 shadow-sm"
+                to="/">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Back to Intro
+              </router-link>
+
+
+
   </div>
 </div>
 

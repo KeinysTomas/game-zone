@@ -42,7 +42,7 @@
 
 
 
-  <div class="container-lg ps-5 pe-5 pb-5 home" style="margin-top: -0.5rem;">
+  <div class="container-lg ps-3 pe-3     pt-5 pb-5    pt-lg-0   ps-md-5   pe-md-5 home" style="margin-top: -0.5rem;">
 
 
   
@@ -60,7 +60,7 @@
 
 <div class="container-lg homeSection gx-0"> 
   <div class="video-wrapper"> 
-    <video class="video" autoplay loop muted> 
+    <video class="video" autoplay loop muted playsinline> 
       <source src="../assets/game-videoOutline1low.mp4" type="video/mp4"> 
       Your browser does not support the video tag. 
     </video> 
@@ -117,7 +117,18 @@
 
 <div class="text-center bg-light allwidth">
 
-<div class="container-lg pt-5 ps-5 pe-5 pb-4 home" >
+
+
+
+
+
+
+
+<div class="container-lg ps-3 pe-3     pt-1 pb-0   pt-lg-5 pb-lg-4       ps-md-5  pe-md-5 home" >
+
+
+  
+
 
 
   <div class="rowhome">
@@ -126,17 +137,13 @@
       <div class="wpb_wrapper">
         <h1 style="text-align: left" class="vc_custom_heading h2 mb-0 text__fade-horizontal home__heading-intro animated">
           <div class="text__fade-horizontal-wrap" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-            
-
-
-
+      
             <u>Can't wait</u> to have some fun? The Game Zone has you covered!
           </div>
         </h1>
         <p class="mt-3" style="text-align: left; font-style: italic;"><b>D</b>on't <b>D</b>elay, <b>P</b>lay <b>T</b>oday!</p>
         <div class="vstack gap-2 col-md-5">
-  
-  
+ 
 </div>
 
       </div>
@@ -145,23 +152,63 @@
   <div class="col-xl-3 col-lg-3 col-md-4 col-10 align-self-end text-lg-left text-md-right wpb_column vc_column_container vc_col-sm-6 col-12">
     <div class="vc_column-inner">
       <div class="wpb_wrapper">
-        <a href="https://district2.studio/services" class="d2__button service__button text-black row text__fade-horizontal location__href animated" data-screen_offset=".15">
-          <div class="text__fade-horizontal-wrap" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-            <span class="service__button-text d2__button-text col-auto">Understand The Mission</span>
-            <span class="service__button-icon d2__button-icon col-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="blue" class="bi bi-caret-right-square ms-4" viewBox="0 0 16 16">
-  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-  <path d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z"/>
-</svg>
-            </span>
-          </div>
-          <span class="d2__button-shadow" style="transform: matrix(1, 0, 0, 1, -120, 0);"></span>
-        </a>
+
+        <router-link
+  to="/about"
+  class="d2__button service__button text-black row text__fade-horizontal location__href animated"  
+          data-screen_offset=".15"
+        >
+
+
+
+  <div class="service__button-content">
+
+
+  <span class="service__button-text">  
+    <a class="d2__button-text" style="color: black;">
+      Understand The Mission
+    </a>
+  </span>
+
+  <span class="service__button-icon">
+    <a class="d2__button-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="blue" class="bi bi-caret-right-square ms-4" viewBox="0 0 16 16">
+<path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/> <path d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z"/> </svg>
+          </a>
+    
+  </span>
+
+
+
+  </div>
+
+  <a class="d2__button-shadow">
+  </a>
+
+</router-link>
       </div>
     </div>
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
@@ -188,7 +235,7 @@
 
 
 
-<div class="container-lg pt-1 ps-5 pe-5 home1">
+<div class="container-lg ps-3 pe-3     pt-1       ps-md-5  pe-md-5 home1">
 
 
 
@@ -229,7 +276,7 @@
     <div class="row justify-content-center">
         <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 justify-content-center p-2">
           <div class="card m-auto">
-            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted>
+            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/number.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -239,7 +286,17 @@
 
               <p class="card-text my-3">Test your reaction time. Challenge your friends and colleagues to beat your score!</p>
 
-              <a href="#" class="btn btn-outline-primary my-2 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+              
+              
+
+              <router-link 
+                class="btn btn-outline-primary my-2 px-5 shadow-sm"
+                to="/ReactionTimerGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
+
 
 
 
@@ -262,7 +319,22 @@
               <p class="card-text my-3">Experience the excitement of the classic card game War. Test your luck and strategy.</p>
 
 
-              <a href="#" class="btn btn-outline-primary my-2 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+              
+
+
+
+              <router-link 
+                class="btn btn-outline-primary my-2 px-5 shadow-sm"
+                to="/WarGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
+
+
+
+
+
             </div>
           </div>
         </div>
@@ -277,7 +349,21 @@
 
               <p class="card-text my-3">Play the timeless game of Tic Tac Toe. Can you outsmart your opponents and claim victory?</p>
               
-              <a href="#" class="btn btn-outline-primary my-2 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
+              
+
+
+
+               <router-link 
+                class="btn btn-outline-primary my-2 px-5 shadow-sm"
+                to="/TicTacToeGame">
+
+                <i class="bi bi-caret-right-fill me-1"></i>
+                Play
+              </router-link>
+
+
+
+
             </div>
           </div>
         </div>
@@ -350,7 +436,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'Home',
   components: {
     HelloWorld
   }
@@ -507,6 +593,21 @@ export default {
   padding-top: 3.75em;
   padding-bottom: 3em;
 }
+
+@media (max-width: 768px) {
+  .allwidth {
+    padding-top: 2.5em;
+    padding-bottom: 1.25em;
+}
+}
+
+@media (max-width: 600px) {
+  .allwidth {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+}
+
 
 
 

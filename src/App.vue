@@ -75,17 +75,17 @@
             Games 
           </a>
           <ul class="dropdown-menu px-1">
-              <router-link :to="{ name: 'WarView' }" class="dropdown-item rounded">WarView</router-link>
+              <router-link :to="{ name: 'WarGame' }" class="dropdown-item rounded">War Game</router-link>
               <li><hr class="dropdown-divider"></li>
 
 
-              <router-link :to="{ name: 'ReactionTimerView' }" class="dropdown-item rounded">reaction-timer</router-link>
+              <router-link :to="{ name: 'ReactionTimerGame' }" class="dropdown-item rounded">Reaction Timer</router-link>
 
 
 
 
               <li><hr class="dropdown-divider"></li>
-              <router-link :to="{ name: 'TicTacToeView' }" class="dropdown-item rounded">TicTacToeView</router-link>          
+              <router-link :to="{ name: 'TicTacToeGame' }" class="dropdown-item rounded">Tic Tac Toe</router-link>          
           </ul>
         </li>
         <li class="bgrLinks nav-item">
@@ -105,7 +105,7 @@
         <div class="text-center">
           <a
             class="btn btn-link btn-floating btn-sm text-dark m-1" style="padding-right:0.5rem!important;padding-left:0.5rem!important;"
-            href="#!"
+            href="https://en-gb.facebook.com/" rel="noopener noreferrer nofollow" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-facebook" style="color: #3b5998; font-size: 1.1rem;"></i></a>
@@ -113,7 +113,7 @@
           <!-- Twitter -->
           <a
             class="btn btn-link btn-floating btn-sm text-dark m-1" style="padding-right:0.5rem!important;padding-left:0.5rem!important;"
-            href="#!"
+            href="https://twitter.com/?lang=en-gb/" rel="noopener noreferrer nofollow" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-twitter" style="color: #1DA1F2; font-size: 1.1rem;"></i></a>
@@ -122,14 +122,14 @@
           <!-- Instagram -->
           <a
             class="btn btn-link btn-floating btn-sm text-dark m-1" style="padding-right:0.5rem!important;padding-left:0.5rem!important;"
-            href="#!"
+            href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-instagram" style="background-image: linear-gradient(to bottom right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.1rem;"></i></a>
 
           <a
             class="btn btn-link btn-floating btn-sm text-dark m-1" style="padding-right:0.5rem!important;padding-left:0.5rem!important;"
-            href="#!"
+            href="https://gb.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-linkedin" style="color: #0082ca; font-size: 1.1rem;"></i
@@ -170,10 +170,18 @@
 
 
 
+<router-link
 
-<button class="bg-primary border-primary" id="hp-ctn-howItWorks">
+button class="bg-primary border-primary" to="/contact" id="hp-ctn-howItWorks" style="display: block;">
   <p style="display:flex; align-items: center;"><i class="bi bi-caret-down-square me-3 fs-3 " style="margin-left: 5px;"></i>Get in Touch</p>
-</button>
+
+
+
+</router-link>
+
+
+
+
 
 
 
@@ -281,13 +289,14 @@
 
         <ul class="bgrLinks list-unstyled">
           <li style="margin-bottom: 15px;">
-            <router-link to="/" class="text-dark">War Card Game</router-link>
+            <router-link :to="{ name: 'WarGame' }" class="text-dark">War Game</router-link>
           </li>
           <li style="margin-bottom: 15px;">
-            <router-link :to="{ name: 'about' }" class="text-dark">Reaction Timer</router-link>
+            <router-link :to="{ name: 'ReactionTimerGame' }" class="text-dark">Reaction Timer</router-link>
           </li>
           <li style="margin-bottom: 15px;">
-            <router-link :to="{ name: 'contact' }" class="text-dark">Tic Tac Toe</router-link>
+
+            <router-link :to="{ name: 'TicTacToeGame' }" class="text-dark">Tic Tac Toe</router-link>
           </li>
         </ul>
       </div>
@@ -322,7 +331,7 @@
       
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
+        href="https://en-gb.facebook.com/" rel="noopener noreferrer nofollow" target="_blank"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="bi bi-facebook" style="color: #3b5998; font-size: 1.3rem;"></i></a>
@@ -330,20 +339,20 @@
       <!-- Twitter -->
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
+        href="https://twitter.com/?lang=en-gb/" rel="noopener noreferrer nofollow" target="_blank"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="bi bi-twitter" style="color: #55acee; font-size: 1.3rem;"></i
       ></a>
 
 
-      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" role="button" data-mdb-ripple-color="dark">
         <i class="bi bi-instagram" style="background-image: linear-gradient(to bottom right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.3rem;"></i>
       </a>
 
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
+        href="https://gb.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="bi bi-linkedin" style="color: #0082ca; font-size: 1.3rem;"></i
@@ -359,8 +368,8 @@
   
 
     <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2026 Game Zone:
-    <a class="text-primary" href="https://mdbootstrap.com/">Portfolio</a>
+    © 2023 Game Zone:
+    <a class="text-primary" href="https://keinystomas.github.io/Portfolio/" rel="noopener noreferrer nofollow" target="_blank">Portfolio</a>
   </div>
   
   <!-- Copyright -->
@@ -399,14 +408,14 @@
 
 
 <script>
-import ReactionTimerView from './views/ReactionTimerView.vue';
-import WarView from './views/WarView.vue';
+import ReactionTimerGame from './views/ReactionTimerGame.vue';
+import WarGame from './views/WarGame.vue';
 
 export default {
   name: 'App',
   components: {
-    ReactionTimerView,
-    WarView,
+    ReactionTimerGame,
+    WarGame,
   },
 };
 </script>
@@ -533,6 +542,23 @@ export default {
     display:inline-block;
     line-height:40px;
 }
+
+
+@media (max-width: 768px) {
+  #hp-ctn-howItWorks {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
