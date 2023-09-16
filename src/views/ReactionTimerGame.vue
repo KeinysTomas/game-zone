@@ -115,7 +115,7 @@
         <Block v-if="isPlaying" :delay="delay" @end="endGame" />
         <Results v-if="showResults" :score="score" />
       </div>
-      <video class="video-background" autoplay loop muted>
+      <video class="video-background" autoplay loop muted playsinline>
         <source src="../assets/tunnel.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -221,7 +221,7 @@
 
 
 
-<h2 class="mt-5 mx-2 mb-4 mb-md-5 pb-2 pb-md-0 pt-4 pt-md-5 ">Your Go-To Guide for This Game</h2>
+<h2 class="mt-5 mx-2 mb-4 mb-md-5 pb-2 pb-md-0 pt-3 pt-md-5 ">Your Go-To Guide for This Game</h2>
 
    <div class="accordion mb-5" id="accordionExample">
   <div class="accordion-item">
@@ -270,7 +270,7 @@
 
 
 
-<h2 class="mt-5 mx-2 pt-4 pt-md-4 pt-lg-5">Continue Testing Your Talents</h2>
+<h2 class="mt-5 mx-2 pt-3 pt-md-4 pt-lg-5">Continue Testing Your Talents</h2>
 
 
     <p class="ms-1 mt-3 me-1 mb-1 pt-2      mx-sm-0            ms-lg-4 mt-lg-4 me-lg-4 mb-lg-1 pt-lg-2  pb-lg-2      ms-xl-5 mt-xl-4 me-xl-5 mb-xl-1 pt-xl-2">Whether your reactions were lightning fast or turtle slow, now try games that challenge different mental abilities. Sharpen your mind in the classic head-to-head challenge of Tic Tac Toe, where you'll strategize to outsmart opponents, or try your luck in the card game War where fortune determines the victors.
@@ -323,7 +323,7 @@
     <div class="card bg-light p-1 p-md-2 p-lg-3 p-xl-4 border-0 rounded">
       <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">Tic Tac Toe</h4>
       <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
+        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/TicTacToe.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -347,7 +347,7 @@
     <div class="card bg-light p-1 p-md-2 p-lg-3 p-xl-4 border-0 rounded">
       <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">War Card Game</h4>
       <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
+        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/cards.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>

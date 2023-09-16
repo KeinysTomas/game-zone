@@ -61,7 +61,7 @@
 
 
 
-<h2 class="mt-5 mx-2 pt-4 pt-md-4 pt-lg-5">Check Out Other Games</h2>
+<h2 class="mt-5 mx-2 pt-3 pt-md-4 pt-lg-5">Check Out Other Games</h2>
 
 
     <p class="ms-1 mt-3 me-1 mb-1 pt-2      mx-sm-0            ms-lg-4 mt-lg-4 me-lg-4 mb-lg-1 pt-lg-2  pb-lg-2      ms-xl-5 mt-xl-4 me-xl-5 mb-xl-1 pt-xl-2">You played one game. Don't stop at just cards! Try more games that challenge your abilities in different ways, from reflexes to critical thinking. The possibilities for fun and skill-testing are endless here,  so check out what's next!</p>
@@ -72,10 +72,10 @@
 
 <div class="row g-0 mt-5">
   <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card col2games p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
+    <div class="card col2games p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0" style="border-color: rgba(206, 212, 218, 0.8)!important">
       <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">Reaction Timer</h4>
       <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
+        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/number.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -103,10 +103,10 @@
     </div>
   </div>
   <div class="col-sm-6">
-    <div class="card col2games1 bg-light p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
+    <div class="card col2games1W bg-light p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
       <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">Tic Tac Toe</h4>
       <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
+        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/TicTacToe.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -180,6 +180,19 @@ export default {
   @media (max-width: 768px) {
   .outerCLMN1 {
     border-radius: 0rem 0rem 0.4rem 0.4rem;
+  }
+}
+
+
+
+.col2games1W {
+    border-radius: 0 0.4rem 0.4rem 0 !important;
+  }
+
+
+  @media (max-width: 576px) {
+  .col2games1W {
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem !important;
   }
 }
 

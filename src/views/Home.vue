@@ -42,7 +42,7 @@
 
 
 
-  <div class="container-lg ps-3 pe-3     pt-5 pb-5    pt-lg-0   ps-md-5   pe-md-5 home" style="margin-top: -0.5rem;">
+  <div class="container-lg ps-3 pe-3   pt-3 pb-3  pt-md-4 pb-md-4    pt-lg-5 pb-lg-5    pt-xl-0   ps-md-5   pe-md-5 home">
 
 
   
@@ -266,7 +266,7 @@
 
 
 
-<h2 class="mt-5 pt-5 pb-3">Play Classic Games</h2>
+<h2 class="mt-4 mt-md-5 pt-5 pb-3">Play Classic Games</h2>
 
 
     <p class="ps-1 pt-0 pb-3 pe-1 mt-3 mb-4      ps-md-3   pe-md-3        ps-lg-5  pe-lg-5">Relax and rejuvenate with these nostalgic games that provide a bit of entertainment and a change of pace from work stress. With just a few minutes, you can challenge yourself and give your brain a break from demanding tasks. Play these games solo or challenge friends and colleagues to some friendly competition.</p>
@@ -305,7 +305,7 @@
         </div>
         <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 justify-content-center p-2">
           <div class="card m-auto">
-            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted>
+            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/cards.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -340,7 +340,7 @@
         </div>
         <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 justify-content-center p-2">
           <div class="card m-auto">
-            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted>
+            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/TicTacToe.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -516,6 +516,24 @@ export default {
     
 }
 
+@media (max-width: 768px) {
+  .rowhome {
+    margin-bottom: 4.5rem;
+}
+}
+
+
+@media (max-width: 667px) {
+  .rowhome {
+    margin-bottom: 4.5rem;
+}
+}
+
+
+
+
+
+
 .rowhome .col-md-6 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -601,10 +619,10 @@ export default {
 }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .allwidth {
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
+    padding-top: 2em;
+    padding-bottom: 0.01em;
 }
 }
 
@@ -627,6 +645,19 @@ export default {
 
 .home1 {
   padding-bottom: 6em;
+}
+
+
+@media (max-width: 768px) {
+   .home1 {
+     padding-bottom: 5em;
+}
+}
+
+@media (max-width: 667px) {
+  .home1 {
+    padding-bottom: 3.5em;
+}
 }
 
 

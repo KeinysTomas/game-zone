@@ -1,6 +1,6 @@
 <template>
 
-<div class="container-lg ps-3 pe-3 pt-3 pt-md-3 pt-lg-4 pb-5           ps-md-5   pe-md-5 contactTemp">
+<div class="container-lg ps-3 pe-3 pt-3 pt-md-3 pt-lg-4 pb-2 pb-md-5           ps-md-5   pe-md-5 contactTemp">
 
 
   <div class="row justify-content-center rounded shadow gx-0 pt-5 px-0 pb-4 p-sm-5" style="background-color: rgba(255, 255, 255, 0.5); margin-bottom: 20px; margin-top: 50px;">

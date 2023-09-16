@@ -53,7 +53,7 @@
            </table>
           <p v-if="gamePlayed"><b> {{ displayWinner() }} </b></p> <!-- Add v-if directive to displayWinner() element -->
           <button class="btn btn-outline-primary btn-lg shadow-sm px-5 mt-2" @click="restartGameWithSound" v-if="gameOver">Play War</button>
-          <video src="../assets/gameOver.mp4" type="video/mp4" autoplay loop muted v-if="showVideo" style="filter: invert(1);"></video>
+          <video src="../assets/gameOver.mp4" type="video/mp4" autoplay loop muted playsinline v-if="showVideo" style="filter: invert(1);"></video>
         </div>
         <div v-else>
           <div>

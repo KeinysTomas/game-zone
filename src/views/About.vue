@@ -1,6 +1,7 @@
 <template>
   
-  <div class="container-lg ps-3 pe-3 pt-5 pt-md-3 pt-lg-5 pb-5           ps-md-5   pe-md-5 about">
+  <div class="container-lg ps-3 pe-3        pt-4    pt-md-4    pt-lg-5      pb-5           ps-md-5   pe-md-5 about">
+
 
 
 
@@ -73,7 +74,7 @@
 
 
 
-<h2 class="pt-5 pb-4">Quick & Simple Fun</h2>
+<h2 class="pt-4 pt-md-5 pb-4">Quick & Simple Fun</h2>
 
 <div class="bs-callout bs-callout-danger" id="callout-btndropdown-dependency"> <h4>Easy to Pick Up & Play</h4> <p>The goal of Game Zone is to provide that pure gaming joy you remember, in bite-size portions to enjoy on a work break. Relax with familiar classics like Reaction Timer, War Card Game, and Tic Tac Toe that you can learn in seconds. Challenge friends to beat your scores!<br><br>
 
@@ -112,10 +113,10 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
 
 <div class="text-center bg-light allwidthAbout">
 
-<div class="container-lg ps-3 pe-3     pt-5 pb-5      ps-md-5   pe-md-5 about">
+<div class="container-lg ps-3 pe-3     pt-5       pb-2   pb-md-4    pb-lg-5      ps-md-5   pe-md-5 about">
 
 
-<h2 class="pt-5 pb-3">Escape Through Gaming</h2>
+<h2 class="pt-4 pt-md-5 pb-3">Escape Through Gaming</h2>
 
 
     <p class="ps-1 pt-0 pb-3 pe-1 mt-3 mb-4      ps-md-3   pe-md-3        ps-lg-5  pe-lg-5">Play these pick-up-and-play titles solo or start a friendly competition with friends. Short bursts of arcade-style play will provide a mental boost and fond gaming memories.</p>
@@ -125,7 +126,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
     <div class="row justify-content-center mb-4">
         <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 justify-content-center p-2">
           <div class="card m-auto">
-            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted>
+            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/number.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -155,7 +156,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
         </div>
         <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 justify-content-center p-2">
           <div class="card m-auto">
-            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted>
+            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/cards.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -182,7 +183,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
         </div>
         <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 justify-content-center p-2">
           <div class="card m-auto">
-            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted>
+            <video class="w-100 h-100 top-0 start-0 rounded-top" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/TicTacToe.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -221,7 +222,7 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
 
 
 
-<div class="container-lg ps-3 pe-3     pt-5 pb-5      ps-md-5   pe-md-5 about">
+<div class="container-lg ps-3 pe-3     pt-1 pb-3  pt-md-4 pb-md-4    pt-lg-5 pb-lg-5      ps-md-5   pe-md-5 about">
 
 
   <div class="card" style="margin-right: -4px; margin-left: -4px; margin-top: 56px; margin-bottom: 56px;">
@@ -335,14 +336,9 @@ At Game Zone, it's just me bringing you nostalgic entertainment. No huge team sp
   
   margin-left: 4px;
   margin-right: 4px;
-
-  background: linear-gradient(140deg, #fddf8c, #ff8800);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text; /* Mozila Firefox */
-    -moz-text-fill-color: transparent; /* Mozila Firefox */
-    display: inline-block;
+  color: #ff8800;
+  
+  display: inline-block;
 }
 
 

@@ -125,7 +125,7 @@
             href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
-            ><i class="bi bi-instagram" style="background-image: linear-gradient(to bottom right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.1rem;"></i></a>
+            ><i class="bi bi-instagram" style="color: #FD1D1D; font-size: 1.1rem;"></i></a>
 
           <a
             class="btn btn-link btn-floating btn-sm text-dark m-1" style="padding-right:0.5rem!important;padding-left:0.5rem!important;"
@@ -347,7 +347,7 @@ button class="bg-primary border-primary" to="/contact" id="hp-ctn-howItWorks" st
 
 
       <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" role="button" data-mdb-ripple-color="dark">
-        <i class="bi bi-instagram" style="background-image: linear-gradient(to bottom right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.3rem;"></i>
+        <i class="bi bi-instagram" style="color: #FD1D1D; font-size: 1.3rem;"></i>
       </a>
 
       <a

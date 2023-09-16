@@ -67,7 +67,7 @@
 
 
 
-<h2 class="mt-5 mx-2 pt-4 pt-md-4 pt-lg-5">Continue Your Gaming Experience</h2>
+<h2 class="mt-5 mx-2 pt-3 pt-md-4 pt-lg-5">Continue Your Gaming Experience</h2>
 
 
     <p class="ms-1 mt-3 me-1 mb-1 pt-2      mx-sm-0            ms-lg-4 mt-lg-4 me-lg-4 mb-lg-1 pt-lg-2  pb-lg-2      ms-xl-5 mt-xl-4 me-xl-5 mb-xl-1 pt-xl-2">You just sharpened your strategic thinking here. Now take on games that test new abilities, from split-second reflexes in Reaction Timer to depending on fortune in the classic War card game. The fun never stops, so challenge your mind with these next.
@@ -83,7 +83,7 @@
     <div class="card col2games bg-light p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
       <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">War Card Game</h4>
       <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
+        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/cards.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -103,10 +103,10 @@
     </div>
   </div>
   <div class="col-sm-6">
-    <div class="card col2games1 p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
+    <div class="card col2games1T p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
       <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">Reaction Timer</h4>
       <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
+        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted playsinline>
               <source src="../assets/number.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -181,9 +181,7 @@ body {
 
 
 
-.accordion-button {
-    color: blue !important;
-  }
+
 
 
 
@@ -204,13 +202,14 @@ body {
 
 
 
-.col2games1 {
+.col2games1T {
+    border-color: rgba(206, 212, 218, 0.8)!important;
     border-radius: 0 0.4rem 0.4rem 0 !important;
   }
 
 
   @media (max-width: 576px) {
-  .col2games1 {
+  .col2games1T {
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem !important;
   }
 }
