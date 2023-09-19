@@ -834,7 +834,6 @@ td {
 
 .war1 {
   position: relative;
-  background-image: url('../assets/austrian-national-library.jpg');
   background-size: cover;
 }
 

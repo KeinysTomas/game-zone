@@ -78,7 +78,7 @@
 
 <div class="bs-callout bs-callout-danger" id="callout-btndropdown-dependency"> <h4>Easy to Pick Up & Play</h4> <p>The goal of Game Zone is to provide that pure gaming joy you remember, in bite-size portions to enjoy on a work break. Relax with familiar classics like Reaction Timer, War Card Game, and Tic Tac Toe that you can learn in seconds. Challenge friends to beat your scores!<br><br>
 
-Don't expect to find epic adventures like GTA5 or <a href="../javascript/#dropdowns">Cyberpunk2077</a> here. While we love those huge story-driven games too, have you seen how long their credits run these days? Even the "skip" button takes forever with so many people working on them!<br><br>
+Don't expect to find epic adventures like GTA 5 or <a href="https://en.wikipedia.org/wiki/Cyberpunk_2077" rel="noopener noreferrer nofollow" target="_blank">Cyberpunk2077</a> here. While we love those huge story-driven games too, have you seen how long their credits run these days? Even the "skip" button takes forever with so many people working on them!<br><br>
 
 At Game Zone, it's just me bringing you nostalgic entertainment. No huge team spent years crafting ultra-realistic graphics and cinematics. Nope, I'm a solo dev focused on simple games that take you back to childhood fun measured in high scores rather than polygon counts.
 </p> 

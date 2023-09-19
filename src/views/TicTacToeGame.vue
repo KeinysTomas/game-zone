@@ -27,7 +27,7 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>A: The main goal of Tic Tac Toe</strong>  is to get 3 of your symbols (either X's or O's) in a row - horizontally, vertically, or diagonally across the 3x3 grid. To win, you need to form a full line with your symbol before your opponent can make their own line. The first player to complete a full row of 3 X's or 3 O's wins the game. <code>.accordion-body</code>
+        <strong>A: The main goal of Tic Tac Toe</strong>  is to get 3 of your symbols (either X's or O's) in a row - horizontally, vertically, or diagonally across the 3x3 grid. To <a class="text-danger" href="https://hobbylark.com/board-games/Tic-Tac-Toe-Impossible-Never-Lose-Perfect-XO-Strategy-Tactics" rel="noopener noreferrer nofollow" target="_blank">win, you need to form a full line with your symbol before your opponent</a> can make their own line. The first player to complete a full row of 3 X's or 3 O's wins the game.
       </div>
     </div>
   </div>

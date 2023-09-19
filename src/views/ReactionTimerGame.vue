@@ -4,46 +4,6 @@
 
 
 
-
-
-
-   
-
-
-
-   
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
 <h2 class="mt-4 mx-2 pt-4 pt-md-5 pt-lg-5">Challenge Your Reflexes</h2>
 
 
@@ -82,15 +42,11 @@
 
         <p class="h2 rectTime" style="font-family: Courier New, monospace; font-weight: 100; font-style: italic; padding-top:3rem;">Reaction Timer</p><br>
 
-         <!--   Previuos "Reaction Time" Version
-
-        <p class="h2 rectTime" style="font-family: Rockwell, serif; font-style: italic; padding-top:3rem; text-shadow: -3px 0 0 lightgray;">Reaction Timer</p><br>
-
-        -->
+        
 
 
 
-        <p style="margin-top: -1.4rem; margin-bottom: 3rem;">Check your speed</p>
+        <p style="margin-top: -1.4rem; margin-bottom: 3rem;">Check Your Speed</p>
 
 
         
@@ -232,7 +188,7 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>A: To start, the player presses the "Play" button</strong> to begin the game. After pressing play, the player then waits for the reaction button to appear on the screen. The reaction button will pop up between 2 to 7 seconds after pressing play, so the player cannot anticipate exactly when it will appear. Once the reaction button pops up, the player has to click on it as fast as possible. The game measures the player's reaction time from the moment the button appears to the moment the player clicks it, recorded in milliseconds. The faster the player can react and click the button after it pops up, the better their score will be.
+        <strong>A: To start, the player presses the "Play" button</strong> to begin the game. After pressing play, the player then waits for the reaction button to appear on the screen. The reaction button will pop up between 2 to 7 seconds after pressing play, so the player cannot anticipate exactly when it will appear. Once the reaction button pops up, the player has to click on it as fast as possible. The game measures the <a class="text-danger" href="https://dotesports.com/general/news/how-to-increase-reaction-time-in-gaming" rel="noopener noreferrer nofollow" target="_blank">player's reaction time</a> from the moment the button appears to the moment the player clicks it, recorded in milliseconds. The faster the player can react and click the button after it pops up, the better their score will be.
       </div>
     </div>
   </div>
@@ -278,43 +234,6 @@
 
 
 
-<!--standart col2games
-
-<div class="row g-0 mt-5">
-  <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card col2games bg-light p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
-      <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">War Card Game</h4>
-      <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
-              <source src="../assets/cards.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-
-        <p class="card-text ms-1 mt-3 me-1 mb-1 pt-2      mx-sm-0            ms-lg-4 mt-lg-4 me-lg-4 mb-lg-1 pt-lg-2        ms-xl-5 mt-xl-4 me-xl-5 mb-xl-1 pt-xl-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-        <a href="#" class="btn btn-outline-primary m-4 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card col2games1 p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0">
-      <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">Reaction Timer</h4>
-      <div class="card-body m-2">
-        <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted>
-              <source src="../assets/number.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-
-        <p class="card-text ms-1 mt-3 me-1 mb-1 pt-2      mx-sm-0            ms-lg-4 mt-lg-4 me-lg-4 mb-lg-1 pt-lg-2        ms-xl-5 mt-xl-4 me-xl-5 mb-xl-1 pt-xl-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-        <a href="#" class="btn btn-outline-primary m-4 px-5 shadow-sm"><i class="bi bi-caret-right-fill me-1"></i>Play</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
--->
 
 
 
@@ -852,36 +771,5 @@ audio {
 }
 
 
-
-
-/* standart col2games css
-
-.outerCLMN {
-    border-radius: 0.4rem 0 0 0.4rem;
-  }
-
-
-  @media (max-width: 768px) {
-  .outerCLMN {
-    border-radius:  0.4rem 0.4rem 0rem 0rem;
-  }
-}
-
-
-
-
-
-.outerCLMN1 {
-    border-radius: 0 0.4rem 0.4rem 0;
-  }
-
-
-  @media (max-width: 768px) {
-  .outerCLMN1 {
-    border-radius: 0rem 0rem 0.4rem 0.4rem;
-  }
-}
-
- */
 
 </style>

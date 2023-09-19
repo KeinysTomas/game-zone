@@ -496,8 +496,70 @@ export default {
 }
 
 
+.bgrLinks a {
+  letter-spacing: 0.02rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.bgrLinks a::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.5s ease-out;
+}
+
+.bgrLinks a:hover::before {
+  width: 100%;
+}
+
+
+
+
 @media (max-width: 768px) {
   p {
+   font-size: 14px;
+ }
+}
+
+
+
+@media (max-width: 768px) {
+  .bgrLinks .btn {
+   font-size: 16px!important;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+}
+
+
+@media (max-width: 667px) {
+  .bgrLinks .btn {
+   font-size: 16px!important;
+ }
+}
+
+
+
+.accordion-button {  
+   letter-spacing: 0.02rem;
+   line-height: 1.6;
+ }
+
+
+@media (max-width: 768px) {
+  .accordion-button {
+   font-size: 14px;
+ }
+}
+
+
+@media (max-width: 768px) {
+  .accordion-item {
    font-size: 14px;
  }
 }
@@ -609,26 +671,7 @@ export default {
 }
 
 
-.bgrLinks a {
-  
-  position: relative;
-  text-decoration: none;
-}
 
-.bgrLinks a::before {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: blue;
-  transition: width 0.5s ease-out;
-}
-
-.bgrLinks a:hover::before {
-  width: 100%;
-}
 
 
 .navbar-toggler-icon {

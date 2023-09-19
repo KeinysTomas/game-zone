@@ -21,7 +21,7 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>A: The objective of War is to win more points</strong> than your opponent when all the cards have been played. The player who flips the higher ranking card wins and scores 1 point. Since the shuffle and deal is random, getting more winning flips ultimately comes down to the luck of the draw. The player with the most points at the end once all cards have been played wins the War game. For more detailed rules and variations, check out the <code>War card game page on Wikipedia</code>, which has additional information.
+        <strong>A: The objective of War is to win more points</strong> than your opponent when all the cards have been played. The player who flips the higher ranking card wins and scores 1 point. Since the shuffle and deal is random, getting more winning flips ultimately comes down to the luck of the draw. The player with the most points at the end once all cards have been played wins the War game. For more detailed rules and variations, check out the <a class="text-danger" href="https://en.wikipedia.org/wiki/War_(card_game)" rel="noopener noreferrer nofollow" target="_blank">War card game page on Wikipedia</a>, which has additional information.
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@
 
 <div class="row g-0 mt-5">
   <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card col2games p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0" style="border-color: rgba(206, 212, 218, 0.8)!important">
+    <div class="card col2gamesW p-1 p-md-2 p-lg-3 p-xl-4 border-light rounded-0" style="border-color: rgba(206, 212, 218, 0.8)!important">
       <h4 class="card-title mb-2 mt-4 pt-3 fw-bold">Reaction Timer</h4>
       <div class="card-body m-2">
         <video class="w-100 h-100 top-0 start-0 rounded" style="position: relative;" autoplay loop muted playsinline>
@@ -180,6 +180,18 @@ export default {
   @media (max-width: 768px) {
   .outerCLMN1 {
     border-radius: 0rem 0rem 0.4rem 0.4rem;
+  }
+}
+
+
+.col2gamesW {
+    border-radius: 0.4rem 0 0 0.4rem !important;
+  }
+
+
+  @media (max-width: 576px) {
+  .col2gamesW {
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem !important;
   }
 }
 

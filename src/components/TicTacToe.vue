@@ -29,7 +29,10 @@
 
 
           <div class="tile-container">
-           <div v-for="(value, key) in tics" :key="key" @click="handleClick(key)" @touchstart="handleClick(key)" class="tiles">
+
+           <div v-for="(value, key) in tics" :key="key" @click="handleClick(key)" class="tiles" style="cursor: pointer;">
+
+
             <img v-if="value === 'One'" src="../assets/X.png" alt="X" class="fade-in shine" style="width: 5.5vw; height: 5.5vw; transform: skew(-5deg);" />
             <img v-else-if="value === 'Two'" src="../assets/O.png" alt="O"  class="fade-in shine" style="width: 5.5vw; height: 5.5vw; transform: skew(-5deg);" />
            </div>
